@@ -88,7 +88,7 @@ async def handle_message(update: Update, context: CallbackContext):
 
 def main():
     print("Bot started")
-    application = Application.builder().token("YOUR_BOT_API_KEY").build()
+    application = Application.builder().token("7253304579:AAE9Xpz41BAGzhHBSn5CUyZGCSf5AWMv6Ws").build()
 
     # Handlers for start command and messages
     application.add_handler(CommandHandler("start", start))
