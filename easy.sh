@@ -21,7 +21,7 @@ sudo systemctl enable firewalld
 # Step 7: Clone your GitHub repository
 git clone https://github.com/menakajanith/menakajanith.git
 
-# Step 8: Move the cloned repository to /var/www/test
+# Step 8: Move the cloned repository to /var/www/menakajanith
 sudo mv test /var/www/menakajanith
 
 # Step 9: Create Apache VirtualHost configuration file
